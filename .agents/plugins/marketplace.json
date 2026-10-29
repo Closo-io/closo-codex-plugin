@@ -1,0 +1,20 @@
+{
+  "name": "closo-io",
+  "interface": {
+    "displayName": "Closo"
+  },
+  "plugins": [
+    {
+      "name": "closo",
+      "source": {
+        "source": "local",
+        "path": "./plugins/closo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
