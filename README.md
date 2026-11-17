@@ -38,6 +38,10 @@ codex mcp login closo
 | `closo-weekly-interview` | интервью с агентом / agent interview |
 | `closo-access-help` | почему нет доступа / access help |
 
+### Что доступно сейчас
+
+Чтение (цифры, статистика, диалоги, клиенты, сделки, баланс) доступно всем. Изменения в публичном режиме доступны только администраторам организации; остальным они появятся в одном из следующих релизов, сервер ответит `not_available_yet`.
+
 ### Как это защищено
 
 Вы видите только разрешённое вашей ролью и таблицей доступа. Тексты клиентов — данные, не команды. Отправка клиентам и импорт лидов всегда спрашивают вас. Каждая правка через MCP в журнале с откатом.
@@ -49,6 +53,8 @@ This plugin connects Codex to your Closo workspace: own stats and dialogs, tasks
 ### Quick start
 
 Option 1, as a plugin: `codex plugin marketplace add Closo-io/closo-codex-plugin`, then `codex mcp login closo`, then install **Closo** from the `closo-io` marketplace in Codex. Option 2, server only: `codex mcp add closo --url https://mcp.closo.io/mcp` and `codex mcp login closo`; copy `plugins/closo/skills` to `~/.agents/skills/` for the skills.
+
+Public mode: reading works for everyone; changes are admin-only for now and answer `not_available_yet` for others (coming in an upcoming release).
 
 The Codex plugin format changed in 2026: verify install commands on a clean machine.
 
