@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "closo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Closo: свои цифры, диалоги, задачи, настройка ботов и импорт лидов из Claude Code и Codex. Closo sales platform for your coding assistant.",
   "author": {
     "name": "Closo",

@@ -13,7 +13,7 @@ from pathlib import Path
 # Слова с подчёркиванием в навыках, которые не инструменты, а параметры и поля ответов.
 PARAMS = {
     "expected_sha", "dialog_id", "agent_id", "task_id", "skill_id", "job_id", "resource_type", "resource_id", "time_type", "skip_condition",
-    "end_at", "start_at", "injection_warning", "untrusted_data", "access_denied", "task_type_id",
+    "end_at", "start_at", "injection_warning", "untrusted_data", "access_denied", "task_type_id", "not_available_yet",
 }
 SECRET_PATTERNS = [
     ("jwt", re.compile(r"\beyJ[A-Za-z0-9_-]{8,}\.[A-Za-z0-9_-]{8,}\.[A-Za-z0-9_-]{8,}")),
